@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* regole generali */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+header{
+  height: 500px;
+  background-color: lightgrey;
+  width: 100%;
+
+}
+
+.header_container{
+  width: 80%;
+  height: 100%;
+}
+
+.header_nav{
+  height: 100px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.header_nav_top .left,
+.right {
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+}
+
+.header_nav_bottom .left,
+.right {
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+}
